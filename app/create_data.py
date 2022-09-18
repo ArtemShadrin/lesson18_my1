@@ -1,8 +1,9 @@
 # create_data.py
-
+from app.database import db
 # чтобы создать БД с данными
-from config import db
-from models import Movie, Director, Genre
+from app.dao.models.movie import Movie
+from app.dao.models.genre import Genre
+from app.dao.models.director import Director
 
 db.drop_all()
 db.create_all()
@@ -119,7 +120,7 @@ data = {
         "director_id": 11,
         "pk": 12
     }, {
-        "title": "Ла-Ла Ленд",
+       "title": "Ла-Ла Ленд",
         "description": "Это история любви старлетки, которая между прослушиваниями подает кофе состоявшимся кинозвездам, и фанатичного джазового музыканта, вынужденного подрабатывать в заштатных барах. Но пришедший к влюбленным успех начинает подтачивать их отношения.",
         "trailer": "https://www.youtube.com/watch?v=lneNCBIXD4I",
         "year": 2016,

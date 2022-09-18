@@ -1,0 +1,519 @@
+GET http://localhost:5000/directors/2
+Accept: application/json
+
+<> 2022-09-18T123830.200.json
+
+###
+
+GET http://localhost:5000/directors/2
+Accept: application/json
+
+<> 2022-09-18T123826.200.json
+
+###
+
+PUT http://localhost:5000/directors/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-09-18T123758.500.html
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-09-18T123753.404.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-09-18T123749.404.json
+
+###
+
+GET http://localhost:5000/directors/
+Accept: application/json
+
+<> 2022-09-18T123743.200.json
+
+###
+
+PATCH http://localhost:5000/directors/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-09-13T212520.500.html
+
+###
+
+DELETE http://localhost:5000/directors/1
+Accept: application/json
+
+<> 2022-09-13T212509.500.html
+
+###
+
+DELETE http://localhost:5000/directors/1
+Accept: application/json
+
+###
+
+PUT http://localhost:5000/directors/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-09-13T212425.404.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-09-13T212422.404.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-09-13T212416.404.json
+
+###
+
+GET http://localhost:5000/directors/
+Accept: application/json
+
+<> 2022-09-13T212409.200.json
+
+###
+
+POST http://localhost:5000/directors/
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-09-13T212404.201.json
+
+###
+
+POST http://localhost:5000/directors/
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-09-12T222406.404.html
+
+###
+
+POST http://localhost:5000/directors/
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-09-12T222306.404.html
+
+###
+
+PUT http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "GOVNO",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T202320.500.html
+
+###
+
+GET http://localhost:5000/movies/2
+Accept: application/json
+
+<> 2022-09-12T202313.200.json
+
+###
+
+GET http://localhost:5000/movies/2
+Accept: application/json
+
+<> 2022-09-12T202308.200.json
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-09-12T202255.404.json
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-09-12T202248.404.json
+
+###
+
+GET http://localhost:5000/movies/
+Accept: application/json
+
+<> 2022-09-12T202236.200.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T202228.201.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T202223.200.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T202154.200.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T202139.200.json
+
+###
+
+PUT http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "GOVNO",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T202122.500.html
+
+###
+
+PUT http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "GOVNO",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T202114.500.html
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-09-12T202106.404.json
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-09-12T202058.404.json
+
+###
+
+GET http://localhost:5000/movies/
+Accept: application/json
+
+<> 2022-09-12T202053.200.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T202046.200.json
+
+###
+
+DELETE http://localhost:5000/movies/1
+Accept: application/json
+
+###
+
+PATCH http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "STRASHNO"
+}
+
+###
+
+DELETE http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-09-12T201958.405.json
+
+###
+
+PUT http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "GOVNO",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-09-12T201053.200.json
+
+###
+
+PUT http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "GOVNO",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+###
+
+PUT http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "GOVNO",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T200750.405.json
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-09-12T200008.200.json
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-09-12T195941.200.json
+
+###
+
+GET http://localhost:5000/movies/
+Accept: application/json
+
+<> 2022-09-12T195931.200.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T195839.200.json
+
+###
+
+GET http://localhost:5000/movies/
+Accept: application/json
+
+<> 2022-09-12T195812.200.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T194159.405.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T194008.405.json
+
+###
+
+GET http://localhost:5000/movies/
+Accept: application/json
+
+<> 2022-09-12T184405.500.html
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-09-12T184311.405.json
+
+###
+

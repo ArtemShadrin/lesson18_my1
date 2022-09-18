@@ -1,0 +1,13 @@
+{
+  "trailer": "trailer",
+  "genre": "Комедия",
+  "director": {
+    "name": "Тейлор Шеридан",
+    "id": 1
+  },
+  "year": 1222,
+  "id": 1,
+  "title": "GOVNO",
+  "description": "description",
+  "rating": 1.0
+}
